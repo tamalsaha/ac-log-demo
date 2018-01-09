@@ -8,6 +8,9 @@
 - https://github.com/tamalsaha/ac-log-demo
 
 ```console
+$ glide up -v
+$ go install -v
+
 $ ac-log-demo check -h
 Check restic backup
 
