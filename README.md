@@ -138,4 +138,33 @@ glog.V(2).Infoln_____
 I0108 18:55:38.632634   23366 main.go:81] minikube
 glog.V(3).Infoln_____
 glog.V(4).Infoln_____
+
+$ ac-log-demo check --kubeconfig=/home/tamal/.kube/config --v=3
+I0108 19:08:00.117276   24880 logs.go:19] FLAG: --alsologtostderr="false"
+I0108 19:08:00.117401   24880 logs.go:19] FLAG: --analytics="true"
+I0108 19:08:00.117415   24880 logs.go:19] FLAG: --help="false"
+I0108 19:08:00.117432   24880 logs.go:19] FLAG: --kubeconfig="/home/tamal/.kube/config"
+I0108 19:08:00.117449   24880 logs.go:19] FLAG: --log_backtrace_at=":0"
+I0108 19:08:00.117461   24880 logs.go:19] FLAG: --log_dir=""
+I0108 19:08:00.117475   24880 logs.go:19] FLAG: --logtostderr="true"
+I0108 19:08:00.117495   24880 logs.go:19] FLAG: --master=""
+I0108 19:08:00.117512   24880 logs.go:19] FLAG: --stderrthreshold="2"
+I0108 19:08:00.117529   24880 logs.go:19] FLAG: --v="3"
+I0108 19:08:00.117548   24880 logs.go:19] FLAG: --vmodule=""
+glog.Infoln_____
+I0108 19:08:00.184993   24880 main.go:64] minikube
+glog.Warningln_____
+W0108 19:08:00.185014   24880 main.go:67] minikube
+glog.Errorln_____
+E0108 19:08:00.185029   24880 main.go:70] minikube
+glog.V(0).Infoln_____
+I0108 19:08:00.185043   24880 main.go:75] minikube
+glog.V(1).Infoln_____
+I0108 19:08:00.185058   24880 main.go:78] minikube
+glog.V(2).Infoln_____
+I0108 19:08:00.185072   24880 main.go:81] minikube
+glog.V(3).Infoln_____
+I0108 19:08:00.185085   24880 main.go:84] minikube
+glog.V(4).Infoln_____
+
 ```
